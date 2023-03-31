@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Community Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .question-section {
+            flex-basis: 70%;
+        }
+        
+        .question-box {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        
+        .question-box h3 {
+            margin-top: 0;
+        }
+        
+        .question-box a {
+            display: inline-block;
+            margin-top: 0
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="companies.html">Companies</a></li>
+                <li><a href="blogs.html">blogs</a></li>
+                <li><a href="contact us.html">Contact us</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <h1>HireLancer Community</h1>
+        </br>
+    </div>
+
+    <div class="search-wrapper">
+        <form action="#" method="get" class="search-form">
+            <input type="text" name="search" placeholder="Search Questions...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <main>
+        <section class="question-section">
+            <h2>Questions and Answers</h2>
+            <div class="question-box">
+                <h3>Question 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum tortor sed mauris rhoncus, eu auctor nibh consectetur.</p>
+                <a href="#">View Answer</a>
+            </div>
+
+            <div class="question-box">
+                <h3>Question 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum tortor sed mauris rhoncus, eu auctor nibh consectetur.</p>
+                <a href="#">View Answer</a>
+            </div>
+
+            <div class="question-box">
+                <h3>Question 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum tortor sed mauris rhoncus, eu auctor nibh consectetur.</p>
+                <a href="#">View Answer</a>
+            </div>
+
+        </section>
+
+        <aside>
+            <h3>Ask a Question</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"></br>
+                <label for="question">Question:</label>
+                <textarea id="question" name="question"></textarea></br>
+                <input type="submit" value="Submit">
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Community Page</p>
+    </footer>
+</body>
+
+</html>

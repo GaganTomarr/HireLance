@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+.login-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"], select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f2f2f2;
+}
+
+input[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #007bff;
+	color: #fff;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #0069d9;
+}
+    </style>
+</head>
+<body>
+	<div class="login-container">
+		<form action ="Home.html">
+			<h1>Login</h1>
+			<label for="username">Username</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" required>
+			<label for="user-type">Select User Type:</label>
+			<select id="user-type" name="user-type">
+				<option value="admin">Admin</option>
+				<option value="employee">Employee</option>
+				<option value="customer">Customer</option>
+			</select>
+			<input type="submit" value="Login">
+		</form>
+	</div>
+</body>
+</html>

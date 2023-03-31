@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>My Website</title>
+    <style>
+        /* Style for navigation tabs */
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        
+        .active {
+            background-color: #4CAF50;
+        }
+        /* Style for rectangular boxes */
+        
+        .box {
+            background-color: #f2f2f2;
+            border: 1px solid black;
+            width: 200px;
+            height: 400px;
+            padding: 10px;
+            margin: 10px;
+            float: left;
+        }
+        /* Style for the list */
+        
+        .list {
+            margin: 0 220px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="company.html">Companies</a></li>
+                    <li><a href="blogs.html">blogs</a></li>
+                    <li><a href="contact us.html">Contact us</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <h1>HireLancer</h1>
+        </br>
+        <p>Find your dream job without a sweat</p>
+        <button>Learn More </button>
+    </div>
+
+    <div class="search-wrapper">
+        <form action="#" method="get" class="search-form">
+            <input type="text" name="search" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <!-- Navigation tabs -->
+    <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+    </ul>
+
+    <!-- Search bar -->
+    <div>
+        <input type="text" placeholder="Search...">
+    </div>
+
+    <!-- Rectangular box 1: Regional Rank -->
+    <div class="box">
+        <h2>Regional Rank</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia lect
+        </p>
+    </div>
+
+    <!-- Rectangular box 2: Popular this week and Suggested to you -->
+    <div class="box">
+        <h2>Popular this week</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia lectus in 
+        </p>
+        <h2>Suggested to you</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia lectus in .
+        </p>
+    </div>
+
+    <!-- List with title "Your Interests" -->
+    <div class="list">
+        <h2>Your Interests</h2>
+        <ul>
+            <li>Interest 1</li>
+            <li>Interest 2</li>
+            <li>Interest 3</li>
+            <li>Interest 4</li>
+        </ul>
+    </div>
+</body>
+
+</html>
